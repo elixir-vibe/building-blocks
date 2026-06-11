@@ -62,8 +62,10 @@ line — the document applies its own honesty rules to itself.
 
 Issues and PRs against the prose are welcome — especially "this claim is
 wrong" with evidence, and "this section assumes knowledge it never
-introduces". The voice of the document is maintained by its author; factual
-corrections are maintained by everyone.
+introduces". Two tracks: **corrections** (facts — everyone's) and
+**proposals** (what the standard says — discussed first). The voice of the
+document is maintained by its author. See [CONTRIBUTING.md](CONTRIBUTING.md)
+for the rules and the issue templates for the entry points.
 
 ## License
 
