@@ -38,14 +38,14 @@ boundary where tools go blind, reshape the artifact until they can see —
 is the method of this standard. Design just happened to be where I
 noticed it first.
 
-The boundary list in [the manifesto §4](README.md#4--the-method) is not a
+The boundary list in [the manifesto §4](README.md#4-the-method) is not a
 survey of the literature. It is a list of places I have lost time
 guessing. The same goes for the substrate argument of §5: I tried these
 kinds of analyses on other runtimes first; the cost difference is the
 argument.
 
 Everything ships in the open — see
-[the commitments](README.md#6--the-commitments) for the reasoning.
+[the commitments](README.md#6-the-commitments) for the reasoning.
 
 ## The document and me
 

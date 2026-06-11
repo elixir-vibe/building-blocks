@@ -37,7 +37,8 @@ graph → repaired.
 **Done when:** that demonstration is a public recording anyone can rerun.
 
 ## Phase 4 — Specs become oracles
-Property-based testing and doctests in the standard gates; agent workflows
+[Property-based testing](../lineage/README.md#the-verification-loop) and
+doctests in the standard gates; agent workflows
 that propose properties before implementations; gradual set-theoretic types
 by default, with type errors as precise counterexamples; concurrency
 checking seeded from recovered process topology.

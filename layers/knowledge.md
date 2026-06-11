@@ -52,7 +52,7 @@ written this pattern?*
 
 That ecosystem-scale structural indexing is a laptop problem, not a
 cluster problem — local files, no server, no service dependency
-([manifesto §6](../manifesto/README.md#6--the-commitments), local-first).
+([manifesto §6](../manifesto/README.md#6-the-commitments), local-first).
 
 And it changes what is checkable. The [Quality](quality.md) layer's
 precision discipline — every rule earns a measured false-positive rate

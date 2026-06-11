@@ -27,7 +27,7 @@ at the last mile: a program whose entire thesis is inspectability ends
 its life inside a box that can only be observed from outside. The
 boundary between a working prototype and a production deployment is the
 last place where the thesis currently dies — which is exactly the
-[manifesto §4](../manifesto/README.md#4--the-method) criterion for what
+[manifesto §4](../manifesto/README.md#4-the-method) criterion for what
 gets attacked next.
 
 ## The mechanism

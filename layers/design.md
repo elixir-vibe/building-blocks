@@ -78,7 +78,7 @@ It also proved the strategic lesson that shaped this whole program's
 open-source commitment. Its predecessor, figma-use, drove Figma through
 its plugin API well enough that a patch shipped whose visible purpose was
 to break it. At the client layer, secrecy is not a moat; the conclusion is
-catalogued in the [manifesto's commitments](../manifesto/README.md#6--the-commitments).
+catalogued in the [manifesto's commitments](../manifesto/README.md#6-the-commitments).
 
 ## Composition
 

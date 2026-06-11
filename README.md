@@ -93,6 +93,13 @@ links, the design-to-production chain, and the feedback loops that carry
 failures back as witnesses. Diagrams are Mermaid — they diff in PRs and
 are corrected like prose.
 
+### [Lineage](lineage/README.md)
+
+The technical bibliography: the 1970–2015 papers and books behind every
+"this algorithm is old" claim in the layers — what each result says,
+where it is used here, and what is honestly new versus honestly
+inherited.
+
 ### [Roadmap](roadmap/README.md)
 
 Phases ordered by dependency, no dates. Each phase states what becomes true

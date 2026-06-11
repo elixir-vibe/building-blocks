@@ -44,7 +44,8 @@ attaching instruments. Writing is an instrument; long division is an
 instrument; the calculator did not replace arithmetic intelligence — it
 became part of how that intelligence is expressed. A person with a
 calculator is not a person who outsourced thinking; they are a larger
-cognitive system. Philosophers have a name for this — the extended mind —
+cognitive system. Philosophers have a name for this —
+[the extended mind](../lineage/README.md#mind-and-modularity) —
 and the decades-old argument settles a question people treat as new:
 asking when models will stop needing tools is like asking when
 mathematicians will stop needing notation.
@@ -84,7 +85,8 @@ guess; a rejection with a witness is an instruction.
 
 A **repair** is what a witness enables: a mechanical or near-mechanical
 fix derived from the evidence. The loop *generate → refute with witness →
-repair → re-check* is how verification substitutes for intelligence — the
+repair → re-check* — [a loop with a lineage](../lineage/README.md#the-verification-loop)
+— is how verification substitutes for intelligence — the
 checker does not need to be smart, and neither, within limits, does the
 generator. The loop does the thinking.
 

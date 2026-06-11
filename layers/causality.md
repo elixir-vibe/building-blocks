@@ -50,7 +50,9 @@ questions against it with evidence:
 
 The honest lineage paragraph: none of these algorithms are new. Program
 slicing is the 1980s; dependence graphs and architecture conformance
-models are the 1990s; the citations are in the source. What is new is the
+models are the 1990s; the citations are in
+[the lineage](../lineage/README.md#dependence-and-slicing) and in the
+source. What is new is the
 substrate. In mainstream languages these analyses drown in alias
 analysis — *do these two references overlap?* — and forty years of
 research made that question expensive and approximate. In a language with

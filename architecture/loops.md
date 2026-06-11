@@ -31,7 +31,7 @@ flowchart TD
 
 Thin arrows: the agent's actions and the system's normal operation. Thick
 arrows: witnesses flowing back. The design goal, stated in the
-[manifesto](../manifesto/README.md#3--the-environment-thesis): every thick
+[manifesto](../manifesto/README.md#3-the-environment-thesis): every thick
 arrow carries *where, why, and when possible how to fix* — never a bare
 "failed".
 
