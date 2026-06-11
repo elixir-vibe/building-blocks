@@ -35,12 +35,13 @@ the repair half of the witness/repair loop.
 `fn x, y -> x + y end` are the same code. Type I/II/III taxonomy,
 multi-clause awareness (duplicated pattern-matching heads are caught as a
 unit), cross-file grouping. The distinctive part: the suggestion is
-*computed*, not heuristic. The detector anti-unifies the clone family
-into its [least general generalization](../lineage/README.md#clones-and-generalization)
-— the algebraically canonical common shape — so the recommended extraction (with a generated name like
-`build_changeset`) is the mathematically right answer to "what should
-the shared function be." Detection tools that stop at detection leave
-the hard half to you; here the finding arrives with its repair.
+*computed*, not heuristic. The detector anti-unifies the clone family into its
+[least general generalization](../lineage/README.md#clones-and-generalization)
+— the algebraically canonical common shape — so the recommended
+extraction (with a generated name like `build_changeset`) is the
+mathematically right answer to "what should the shared function be."
+Detection tools that stop at detection leave the hard half to you; here
+the finding arrives with its repair.
 
 **ExSlop** — a genuinely new category: a linter for what the *generator*
 over-produces. Forty checks for patterns LLMs emit and experienced
@@ -68,10 +69,10 @@ place** ([manifesto §6](../manifesto/README.md#6-the-commitments)). The
 reason is specific to agents: a human shrugs off a false positive; an
 agent *complies* with it, contorting correct code to satisfy a wrong
 check — slop-avoidance becoming its own slop. So gates and advisories are
-asymmetric by design (gates must essentially never lie; advisories must
+asymmetric by design: gates must essentially never lie; advisories must
 earn >90% usefulness or be demoted — a regime with
-[industrial prior art](../lineage/README.md#precision-discipline)), and
-precision is measured against real code at ecosystem scale — see
+[industrial prior art](../lineage/README.md#precision-discipline).
+Precision is measured against real code at ecosystem scale — see
 [Knowledge](knowledge.md) for how.
 
 ## What it proved

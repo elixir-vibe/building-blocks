@@ -76,7 +76,7 @@ What is *not* yet proved is the composition this page exists to claim:
 several layers' data on one screen — application records next to web
 analytics next to replayable sessions, drilling from a metric to the
 sessions behind it. That demo is the layer's exit criterion, and until
-it exists this page's central claim is design, not receipt.
+it exists, this page's central claim is design, not receipt.
 
 ## Composition
 

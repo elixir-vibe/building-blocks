@@ -51,9 +51,8 @@ assigns deltas at each state transition. A recording is typed data —
 — and replay is re-evaluation: feed the recorded assigns back through the
 original view, frame by frame, in the shipped dashboard with a scrubber,
 or programmatically. A thirty-second session with active form input is
-roughly four hundred events and ~8 KB on disk (ETF, gzipped). At
-kilobytes
-per session, you record *everything* and discard the sessions with no
+roughly four hundred events and ~8 KB on disk (ETF, gzipped). At that
+size, you record *everything* and discard the sessions with no
 interaction; the unreproducible bug stops existing as a category, because
 every session is a reproduction.
 
