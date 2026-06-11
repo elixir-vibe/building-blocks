@@ -14,7 +14,8 @@ earthquake. A designer opening that file does the only reasonable thing
 and throws it away. The artifact looks finished and is, structurally,
 nothing. A screenshot pretending to be a design.
 
-I am a designer, so I saw it there first. But it is not a design problem.
+I am a designer, so I saw it there first ([who is writing this](author.md)).
+But it is not a design problem.
 
 A vibe-coded application is the same artifact at full scale. A React
 component, an API route, an ORM schema, a migration, some client state —

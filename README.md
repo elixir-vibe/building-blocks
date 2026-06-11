@@ -102,6 +102,13 @@ and how you will know it is done.
 What is unproven, what is a bet, and what would falsify each claim. A
 standard that hides its doubts is marketing.
 
+## Who writes this
+
+One person, with agents, using the stack on itself — see
+[About the author](manifesto/author.md) for the experience these claims
+stand on, and for the honest note about how much of this ecosystem is
+AI-written code held to its own gates.
+
 ## Status of this document
 
 Early. Sections marked *draft* are drafts; sections marked *settled* have
