@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question / discussion
+    url: https://github.com/elixir-vibe/building-blocks/discussions
+    about: For "is this the right reading of section X?" — discussion, not issues.
