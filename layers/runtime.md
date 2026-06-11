@@ -34,8 +34,8 @@ QuickBEAM.eval(rt, "const rows = await Beam.callSync('db.query', [sql])")
 ```
 
 The properties that follow from *being* a BEAM process: supervision
-(crash → restart, isolated), per-context heaps measured in tens of
-kilobytes `[verify]` (one JS context per user/LiveView is affordable),
+(crash → restart, isolated), per-context footprints measured in tens of
+kilobytes (one JS context per user/LiveView is affordable),
 preemptive scheduling (a hot JS loop cannot starve the system), and Web
 APIs backed by OTP machinery rather than reimplementation.
 
@@ -45,8 +45,8 @@ bytecode compiler), with the official JavaScript conformance suite as the
 referee; the current work compiles JS bytecode ahead-of-time *to BEAM
 code* — JavaScript as, literally, another language on the VM. The
 motivating benchmark was the surprise that justified the effort: on
-numeric workloads, BEAM's JIT-compiled code beats the embedded
-interpreter by integer factors `[verify numbers]`.
+numeric workloads (summation, recursion), BEAM's JIT-compiled code beats
+the embedded native interpreter by factors of 5–35×.
 
 ## What it proved
 
@@ -54,7 +54,8 @@ That server-side per-user JavaScript is sane: a reactive context per
 LiveView process — the substrate the [One program](one-program.md) layer
 stands on — costs kilobytes, restarts cleanly, and cannot take neighbors
 down. That Vue's actual reactivity system runs on the BEAM unmodified.
-And at 3,300+ commits `[verify]`, that the scope is a serious runtime
+And at well over three thousand commits, that the scope is a serious
+runtime
 rather than a demo binding.
 
 The fair comparison, stated both ways: polyglot-on-one-VM is a proven

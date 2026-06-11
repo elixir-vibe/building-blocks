@@ -1,7 +1,8 @@
 # Package graph
 
-*Status: draft — edges verified against mix.exs/package.json files at
-draft time; corrections welcome.*
+*Status: draft — edges and repository locations verified 2026-06;
+corrections welcome. Third-party blocks (xamal, livery) are credited to
+their authors; this program contributes and composes.*
 
 Every published package, grouped by boundary, with its load-bearing
 dependencies inside the ecosystem. External deps (Phoenix, LiveView, OTP)
@@ -106,8 +107,8 @@ Solid = dependency. Dashed = optional/feeds.
 | open-pencil | Design | [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | — |
 | figma-use | Design | [dannote/figma-use](https://github.com/dannote/figma-use) | — |
 | iconify / phoenix_iconify | Design·Build | [elixir-volt](https://github.com/elixir-volt) | ✓ |
-| kiwi_codec / fig_kiwi | Design | elixir-vibe | [verify] |
-| skia_ex | Design | elixir-vibe | [verify] |
+| kiwi_codec | Design | [dannote/kiwi_codec](https://github.com/dannote/kiwi_codec) | — |
+| fig_kiwi / skia_ex | Design | private, opening as they stabilize | — |
 | phoenix_replay | Time | [elixir-vibe/phoenix_replay](https://github.com/elixir-vibe/phoenix_replay) | ✓ |
 | reach | Causality | [elixir-vibe/reach](https://github.com/elixir-vibe/reach) | ✓ |
 | ex_ast / ex_dna / ex_slop / vibe_kit | Quality | [elixir-vibe](https://github.com/elixir-vibe) | ✓ |
@@ -116,4 +117,7 @@ Solid = dependency. Dashed = optional/feeds.
 | phoenix_vapor / vize | One program | [elixir-volt](https://github.com/elixir-volt) | ✓ |
 | exograph / quackdb | Knowledge | [elixir-vibe](https://github.com/elixir-vibe) | ✓ |
 | pi-elixir / vibe | Agent | [elixir-vibe](https://github.com/elixir-vibe) | ✓ |
-| xamal / xamal_proxy / livery / systemdkit / unitctl | Deploy | [verify orgs] | [verify] |
+| systemdkit / unitctl | Deploy | [elixir-vibe](https://github.com/elixir-vibe) | systemdkit ✓ |
+| xamal | Deploy | [dmkenney/xamal](https://github.com/dmkenney/xamal) (contributed to) | ✓ |
+| livery | Deploy | [benoitc/livery](https://github.com/benoitc/livery) (contributed to) | ✓ |
+| xamal_proxy | Deploy | private, opening as it stabilizes | — |

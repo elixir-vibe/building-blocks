@@ -50,7 +50,7 @@ Four modes form a gradient, and **mode is an inference, not a
 commitment**: a sigil for Vue-syntax templates with zero client JS;
 server-side reactivity (the `<script setup>` runs in a
 [Runtime](runtime.md) context, still zero client JS); hybrid (server owns
-data, client owns UI state, ~50KB of real Vue on the client `[verify]`);
+data, client owns UI state, ~50 KB of real Vue 3 on the client);
 and a full Vue runtime server-side for third-party component libraries.
 A component migrates between modes as its bindings change, without
 rewrites.

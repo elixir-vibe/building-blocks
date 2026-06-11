@@ -4,8 +4,15 @@
 design, not shipped product. This page is detailed about what and why,
 and explicit about what is unproven.*
 
-Blocks: Xamal, xamal_proxy, Livery, systemdkit, unitctl. `[verify: orgs
-and Hex status at publish time]`
+Blocks: [systemdkit](https://github.com/elixir-vibe/systemdkit) and
+[unitctl](https://github.com/elixir-vibe/unitctl) (this program), plus
+active contribution to [Xamal](https://hex.pm/packages/xamal) (Dylan
+Kenney's Elixir port of Kamal) and
+[Livery](https://github.com/benoitc/livery) (Benoit Chesneau's
+HTTP/1.1+2+3 framework), and an OTP-native blue-green edge proxy
+(xamal_proxy). This layer is deliberately *not* a solo effort — the
+containerless thesis is shared with others building the same primitives,
+and this standard claims the composition, not the components.
 
 ## The blindness
 
@@ -32,10 +39,11 @@ to a Linux box*. The primitives are the original ones — native releases,
 systemd, an edge proxy — and the new fact is that all of them are now
 programmable from Elixir:
 
-- **Deploys, Kamal-style but Elixir-native (Xamal):** Mix tasks and
-  `config/xamal.exs` instead of YAML; the artifact is the BEAM release
-  itself — already self-contained, already the thing containers were
-  wrapping; TLS and routing by Caddy rather than a proxy container.
+- **Deploys, Kamal-style but Elixir-native (Xamal — Kenney's project,
+  actively contributed to):** Mix tasks and `config/xamal.exs` instead of
+  YAML; the artifact is the BEAM release itself — already self-contained,
+  already the thing containers were wrapping; TLS and routing by Caddy
+  rather than a proxy container.
 - **Traffic switching as an OTP application (xamal_proxy):** blue-green
   cutover, health checks, and rollback as supervised operations that
   return structured results — not YAML rituals observed from outside.
@@ -44,10 +52,11 @@ programmable from Elixir:
   Elixir over D-Bus — Docker-like process controls from pure systemd
   primitives. The process manager becomes one more thing an agent can
   ask.
-- **One handler set, every HTTP (Livery):** a BEAM-native server
-  framework serving HTTP/1.1, HTTP/2, and HTTP/3 from a single router
-  and middleware stack — owning the server layer so that streaming and
-  push semantics stay under the same observability as everything above.
+- **One handler set, every HTTP (Livery — Chesneau's framework):** a
+  BEAM-native server serving HTTP/1.1, HTTP/2, and HTTP/3 from a single
+  router and middleware stack — the server layer staying under the same
+  observability as everything above. (This program contributes and
+  consumes; it does not own.)
 
 Why no Docker, argued rather than asserted: the release is already the
 deployment artifact (containers around BEAM releases mostly wrap a thing

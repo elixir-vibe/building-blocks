@@ -58,11 +58,13 @@ single source of truth, and everything operates on it:
   methodology generalizes to any subjective check; it was discovered
   here.
 - **Server-side design machinery exists below the editor:** the Figma
-  binary format parsed natively on the BEAM, layout computed by the same
-  engine family the editor uses, rasterization through a native graphics
-  pipeline — so a backend or an agent can parse, render, and diff design
-  artifacts with no browser and no editor open. `[verify: package names
-  public at publish time]`
+  binary format parsed natively on the BEAM
+  ([kiwi_codec](https://github.com/dannote/kiwi_codec) plus a schema
+  package), layout computed by the same engine family the editor uses,
+  rasterization through a native graphics pipeline — so a backend or an
+  agent can parse, render, and diff design artifacts with no browser and
+  no editor open. (Parts of this layer are still private and will open as
+  they stabilize — status here will track that.)
 
 ## What it proved
 

@@ -51,7 +51,8 @@ assigns deltas at each state transition. A recording is typed data —
 — and replay is re-evaluation: feed the recorded assigns back through the
 original view, frame by frame, in the shipped dashboard with a scrubber,
 or programmatically. A thirty-second session with active form input is
-roughly four hundred events and ~8 KB on disk `[verify]`. At kilobytes
+roughly four hundred events and ~8 KB on disk (ETF, gzipped). At
+kilobytes
 per session, you record *everything* and discard the sessions with no
 interaction; the unreproducible bug stops existing as a category, because
 every session is a reproduction.
@@ -63,7 +64,7 @@ twenty-year-old research dream that was always crushed by recording cost:
 general time-travel debuggers record execution itself, and execution is
 enormous. The delta here: record *inputs to a pure function* instead, and
 the dream costs four hundred tuples. The substrate, not cleverness, made
-an impossible thing nearly free.
+an expensive thing nearly free.
 
 It also proved that recordings-as-typed-data changes who can use them. A
 human uses the scrubber; an agent walks the events list, finds the exact

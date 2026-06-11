@@ -23,15 +23,15 @@ an island. Nothing on it produces witnesses your tools can consume.
 The observation that makes the island unnecessary: modern frontend
 toolchains are already thin JavaScript wrappers around Rust cores. Volt
 skips the wrapper. The Rust cores — OXC for JS/TS parsing, transforming,
-and linting (650+ rules `[verify]`); LightningCSS for CSS — run as native
+and linting (650+ built-in rules); LightningCSS for CSS — run as native
 functions *inside* the BEAM, supervised like everything else. One
 dependency; `mix phx.server` boots the whole frontend toolchain.
 
 What that buys, concretely:
 
 - **Speed where it changes behavior:** Tailwind rebuilds in ~40ms on
-  template edits `[verify]`; production builds in well under a second
-  `[verify]`. At that speed, rebuilds stop being events you wait for.
+  template edits; production builds in under 100ms. At that speed,
+  rebuilds stop being events you wait for.
 - **The Vite feature card, server-side:** HMR with state preservation,
   code splitting, CSS modules, JSON imports, web workers, `import.meta`
   conventions, env vars, compile errors as a browser overlay.
@@ -42,7 +42,7 @@ What that buys, concretely:
   written in Elixir, because the linter runs in the same VM as the app.
 - **Icons as compile-time facts:** the companion icon pipeline scans
   templates at compile time, fetches exactly the icons used (from a
-  catalog of 200,000+ across 150+ sets `[verify]`), and ships them as
+  catalog of 200,000+ across 150+ sets), and ships them as
   inline SVG — no client icon runtime, and "does `lucide:gear` exist?"
   is a question an agent can ask *before* using it.
 
