@@ -7,7 +7,7 @@ diff in PRs, and are corrected like prose (Track 1) when they drift from
 reality. **The prose is the source of truth; a diagram that contradicts a
 layer page is a bug in the diagram.**
 
-- [The boundary map](map.md) — the one-screen picture: ten boundaries, ten
+- [The boundary map](map.md) — the one-screen picture: eleven boundaries, eleven
   blocks.
 - [Package graph](packages.md) — every package, what depends on what, with
   links to the repositories.

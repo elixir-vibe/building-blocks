@@ -2,9 +2,9 @@
 
 *Status: draft.*
 
-Ten boundaries where tools — and therefore agents — go blind today. Ten
-building blocks, each removing one. Every block is useful alone; the
-composition is the point.
+Eleven boundaries where tools — and therefore agents — go blind today.
+Eleven building blocks, each removing one. Every block is useful alone;
+the composition is the point.
 
 *(The designed map figure lands here; the
 [Mermaid source](../architecture/map.md) is the diffable original.)*
@@ -58,3 +58,11 @@ your project, not someone's cloud. *pi-elixir · Vibe.*
 releases, programmable systemd, blue-green switching as OTP operations:
 production without the container ceremony, inspectable to the last mile.
 *systemdkit · unitctl · Xamal · Livery (emerging).*
+
+**[Surface](surface.md)** — the operational state, one queryable plane.
+Admin panels and dashboards are normally a second application that
+re-describes the first and drifts; here they are *derived* — compile-time
+DSLs over the schemas, sessions, traces, and datasets the other layers
+already produce, rendered as one plane. The same metadata that draws a
+table for a human is the tool surface an agent calls. *Incant
+(emerging).*

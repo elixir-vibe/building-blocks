@@ -15,6 +15,7 @@ graph TD
     KNOWLEDGE["KNOWLEDGE\nthe ecosystem,\nsearchable by shape"]
     AGENT["AGENT\nthe worker is a\nsupervised system"]
     DEPLOY["DEPLOY\na supervised path\nto a Linux box"]
+    SURFACE["SURFACE\nthe operational state,\none queryable plane"]
 
     DESIGN --> ONEPROGRAM
     ONEPROGRAM --> RUNTIME
@@ -27,6 +28,9 @@ graph TD
     AGENT --> TIME
     ONEPROGRAM --> DEPLOY
     QUALITY --> KNOWLEDGE
+    TIME --> SURFACE
+    KNOWLEDGE --> SURFACE
+    AGENT --> SURFACE
 
     click DESIGN "../layers/design.md"
     click TIME "../layers/time.md"
@@ -38,6 +42,7 @@ graph TD
     click KNOWLEDGE "../layers/knowledge.md"
     click AGENT "../layers/agent.md"
     click DEPLOY "../layers/deploy.md"
+    click SURFACE "../layers/surface.md"
 ```
 
 Each node links to its layer page. The [package graph](packages.md) shows

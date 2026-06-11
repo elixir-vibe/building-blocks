@@ -68,7 +68,7 @@ where verification dies; the method is to remove them.
 
 ### [The Map](layers/README.md)
 
-One screen: ten boundaries, ten building blocks, how they compose.
+One screen: eleven boundaries, eleven building blocks, how they compose.
 
 ### Layers
 
@@ -84,6 +84,7 @@ One screen: ten boundaries, ten building blocks, how they compose.
 | Knowledge | the ecosystem, searchable by shape | [layers/knowledge.md](layers/knowledge.md) |
 | Agent | the worker is a supervised system | [layers/agent.md](layers/agent.md) |
 | Deploy | a supervised path to a Linux box | [layers/deploy.md](layers/deploy.md) |
+| Surface | the operational state, one queryable plane | [layers/surface.md](layers/surface.md) |
 
 ### [Architecture](architecture/README.md)
 

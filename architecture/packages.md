@@ -70,6 +70,11 @@ graph TD
         unitctl["unitctl"]
     end
 
+    subgraph SURFACE["Surface — layers/surface.md"]
+        incant["incant"]
+        incant_live_vue["incant_live_vue"]
+    end
+
     fig_kiwi --> kiwi_codec
     phoenix_iconify --> iconify_pkg
     vibe_kit --> ex_dna
@@ -96,6 +101,11 @@ graph TD
     xamal_proxy --> xamal
     xamal -.-> systemdkit
     unitctl --> systemdkit
+    incant_live_vue --> incant
+    incant -.-> quackdb
+    phoenix_replay -.-> incant
+    exograph -.-> incant
+    vibe -.-> incant
 ```
 
 Solid = dependency. Dashed = optional/feeds.
@@ -121,3 +131,4 @@ Solid = dependency. Dashed = optional/feeds.
 | xamal | Deploy | [dmkenney/xamal](https://github.com/dmkenney/xamal) (contributed to) | ✓ |
 | livery | Deploy | [benoitc/livery](https://github.com/benoitc/livery) (contributed to) | ✓ |
 | xamal_proxy | Deploy | private, opening as it stabilizes | — |
+| incant / incant_live_vue | Surface | [dannote/incant](https://github.com/dannote/incant), moving to [elixir-vibe](https://github.com/elixir-vibe) as it opens | — |
