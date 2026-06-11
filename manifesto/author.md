@@ -18,13 +18,13 @@ I don't write detailed plans or maintain long TODO lists, and I do almost
 no prompt engineering. I use agents in every part of the work — most in
 moments of uncertainty: reading unfamiliar domains, weighing options,
 exploring solutions. I don't delegate decisions to them; we disagree
-productively. Most of my time always went to thinking rather than typing;
-agents accelerated that part too.
+productively. Even before agents, most of my time went to thinking
+rather than typing; agents accelerated that part too.
 
 Much of the code in these blocks is written by agents — using the stack
 on itself, under its own gates: duplication budgets at zero, structural
 checks, generated-code checks, architecture rules. Whether that regime is
-strict enough is for the gates to show, not for me to claim; they run in
+strict enough is not a claim for this page to settle; the gates run in
 public.
 
 ## Where the convictions come from

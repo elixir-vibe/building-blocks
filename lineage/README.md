@@ -225,4 +225,4 @@ determine, new — stated here so the claim is falsifiable:
 
 If a reader knows prior art for any of these, that is exactly the kind
 of correction this document wants —
-[open an issue](../../../issues).
+[open an issue](https://github.com/elixir-vibe/building-blocks/issues).

@@ -20,14 +20,14 @@ one line: **don't wait for smarter models — build the environment that
 pushes back.**
 
 It is not a vision deck. Most of the blocks are shipped, open-source
-packages in daily use — a Figma-compatible design editor
+packages in daily use. They include a Figma-compatible design editor
 ([OpenPencil](https://github.com/open-pencil/open-pencil)), a LiveView
 session recorder
 ([phoenix_replay](https://github.com/elixir-vibe/phoenix_replay)), a
 whole-program dependence analyzer
 ([Reach](https://github.com/elixir-vibe/reach)), a no-Node.js frontend
-toolchain ([Volt](https://github.com/elixir-volt/volt)), a JavaScript runtime
-inside the Erlang VM
+toolchain ([Volt](https://github.com/elixir-volt/volt)), a JavaScript
+runtime inside the Erlang VM
 ([QuickBEAM](https://github.com/elixir-volt/quickbeam)), a
 Vue-to-LiveView compiler
 ([phoenix_vapor](https://github.com/elixir-volt/phoenix_vapor)),
@@ -36,8 +36,8 @@ ecosystem-wide structural code search
 ([Exograph](https://github.com/elixir-vibe/exograph)), and a coding agent
 that lives inside the running application
 ([pi-elixir](https://github.com/elixir-vibe/pi-elixir) /
-[vibe](https://github.com/elixir-vibe/vibe)). They are built on
-the Erlang VM, used on each other, and useful one at a time; the full
+[vibe](https://github.com/elixir-vibe/vibe)). They are built on the
+Erlang VM, used on each other, and useful one at a time; the full
 repository index is in the [package graph](architecture/packages.md).
 This repository is the document that explains how they compose and where
 it's all going.
@@ -61,7 +61,8 @@ it's all going.
 This repository is a document, not a codebase — maintained the way
 living standards are: no versions, no release dates, continuously
 corrected, with the commit history as the changelog. If a claim is wrong,
-[open an issue](../../issues) against the prose; the prose is the product
+[open an issue](https://github.com/elixir-vibe/building-blocks/issues)
+against the prose; the prose is the product
 here. The code lives in the
 [Elixir Vibe](https://github.com/elixir-vibe),
 [Elixir Volt](https://github.com/elixir-volt), and
