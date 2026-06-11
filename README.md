@@ -28,7 +28,7 @@ whole-program dependence analyzer
 ([Reach](https://github.com/elixir-vibe/reach)), a no-Node.js frontend
 toolchain ([Volt](https://github.com/elixir-volt/volt)), a JavaScript runtime
 inside the Erlang VM
-([Quickbeam](https://github.com/elixir-volt/quickbeam)), a
+([QuickBEAM](https://github.com/elixir-volt/quickbeam)), a
 Vue-to-LiveView compiler
 ([phoenix_vapor](https://github.com/elixir-volt/phoenix_vapor)),
 AI-aware linters ([ExSlop](https://github.com/elixir-vibe/ex_slop)), an
