@@ -1,17 +1,60 @@
 # Building Blocks for the Future Web
 
-*A living standard for a verifiable web stack.*
+*A living standard for a web stack that AI agents can verify, not just
+generate.*
 
-This repository is a document, not a codebase. It states the thesis behind
-the [Elixir Vibe](https://github.com/elixir-vibe),
+## What is this?
+
+AI can generate a design, a frontend, an API, a schema — and each piece
+looks plausible while the whole quietly disagrees with itself. The tools
+that could catch the disagreement don't exist, because the web stack is
+split by boundaries no analyzer can see across: design vs. code, client
+vs. server, JavaScript vs. everything hosting it, the build vs. the app,
+what happened vs. what you can inspect.
+
+This document describes a stack built to remove those boundaries — so
+that software written by AI (and by people) can be *checked*: every
+failure carrying its location and cause, every session replayable, every
+dependency traceable, every design reviewable as a diff. The thesis in
+one line: **don't wait for smarter models — build the environment that
+pushes back.**
+
+It is not a vision deck. Most of the blocks are shipped, open-source
+packages in daily use — a Figma-compatible design editor
+([OpenPencil](https://github.com/open-pencil/open-pencil)), a LiveView
+session recorder, a whole-program dependence analyzer, a no-Node.js
+frontend toolchain, a JavaScript runtime inside the Erlang VM, a
+Vue-to-LiveView compiler, AI-aware linters, an ecosystem-wide structural
+code search, and a coding agent that lives inside the running
+application. They are built on the Erlang VM, used on each other, and
+useful one at a time. This repository is the document that explains how
+they compose and where it's all going.
+
+**Who is this for?**
+
+- *Evaluating one tool?* Jump to its [layer page](#layers) — each
+  explains what the tool sees that others can't, how it works, and its
+  honest limits.
+- *Wondering why these projects exist at all?* Read the
+  [manifesto](manifesto/README.md) — fifteen minutes, no project names
+  until the end.
+- *Want the big picture fast?* [The map](layers/README.md) is one
+  screen.
+- *Deciding whether to bet on this?* Read the
+  [roadmap](roadmap/README.md) and — especially — the
+  [uncertainties](uncertainties/README.md).
+
+## Why a "living standard"?
+
+This repository is a document, not a codebase — maintained the way
+living standards are: no versions, no release dates, continuously
+corrected, with the commit history as the changelog. If a claim is wrong,
+[open an issue](../../issues) against the prose; the prose is the product
+here. The code lives in the
+[Elixir Vibe](https://github.com/elixir-vibe),
 [Elixir Volt](https://github.com/elixir-volt), and
-[OpenPencil](https://github.com/open-pencil) ecosystems: what is being
-built, why, what is already proven, and what remains uncertain — maintained
-continuously, in the open, like a living standard.
-
-There are no versions and no release dates. The document evolves with the
-work; the commit history is the changelog. If a section is wrong, [open an
-issue](../../issues) against the prose — the prose is the product here.
+[OpenPencil](https://github.com/open-pencil) organizations — this is the
+plot they share.
 
 ## The document
 
