@@ -19,8 +19,7 @@ no prompt engineering. I use agents in every part of the work — most in
 moments of uncertainty: reading unfamiliar domains, weighing options,
 exploring solutions. I don't delegate decisions to them; we disagree
 productively. Most of my time always went to thinking rather than typing;
-agents accelerated that part too. The downside: the workday becomes a
-non-stop brainstorming session, and that is more tiring than it sounds.
+agents accelerated that part too.
 
 Much of the code in these blocks is written by agents — using the stack
 on itself, under its own gates: duplication budgets at zero, structural
