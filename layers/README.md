@@ -1,6 +1,6 @@
 # The Map
 
-*Status: draft.*
+*Status: draft — prose pending for layer summaries.*
 
 Ten boundaries where tools — and therefore agents — go blind today. Ten
 building blocks, each removing one. Every block is useful alone; the
